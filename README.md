@@ -102,7 +102,7 @@ services:
       - mongo
   mongo:
     image: mongo:6
-    ports: ["27017:27017"]
+    ports: [":"]
 ```
 
 ## Contributing
