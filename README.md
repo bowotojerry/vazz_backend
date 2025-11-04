@@ -53,12 +53,12 @@ This repo contains the backend API and services for the Shanks web application. 
 ## Example .env
 (Place at project root; do not commit secrets)
 ```env
-APP_PORT=3000
+APP_PORT=yourvapp port
 NODE_ENV=development
-MONGO_URL=mongodb://localhost:27017/shanks_db
+MONGO_URL=mongo_url
 JWT_SECRET=your_jwt_secret_here
-JWT_EXPIRES_IN=7d
-LOG_LEVEL=info
+JWT_EXPIRES_IN=
+LOG_LEVEL=
 ```
 
 ## Available scripts
@@ -96,7 +96,7 @@ version: "3.8"
 services:
   app:
     build: .
-    ports: ["3000:3000"]
+    ports: [":"]
     env_file: .env
     depends_on:
       - mongo
