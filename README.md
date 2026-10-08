@@ -1,6 +1,6 @@
-# Shanks Web App — Backend
+# vazz Web App — Backend
 
-A production-ready Node.js + Express backend for the Shanks web application. Provides user management, JWT-based authentication scaffolding, MongoDB persistence via Mongoose, structured logging, and real-time-ready architecture.
+A production-ready Node.js + Express backend for the vazz web application. Provides user management, JWT-based authentication scaffolding, MongoDB persistence via Mongoose, structured logging, and real-time-ready architecture.
 
 ## Table of contents
 - About
@@ -17,7 +17,7 @@ A production-ready Node.js + Express backend for the Shanks web application. Pro
 - License & maintainers
 
 ## About
-This repo contains the backend API and services for the Shanks web application. It focuses on a secure user model, extensible routing, and observability using Winston + Morgan. The project uses CommonJS modules and expects a MongoDB database.
+This repo contains the backend API and services for the vazz web application. It focuses on a secure user model, extensible routing, and observability using Winston + Morgan. The project uses CommonJS modules and expects a MongoDB database.
 
 ## Features
 - Express server scaffold
